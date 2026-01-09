@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: white;
+}
+
+
+/* Header */
+.top-navigation {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f5f9;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1360px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 32px;
+    
+    font-weight: 800;
+    color:#489b6e;
+    line-height: 1;
+}
+
+.brand-sub {
+    font-size: 5px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Nav Link Styles */
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #475569;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #48946c;
+}
+
+/* Button Styles */
+.btn-green {
+    background-color: #48946c; 
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.btn-green:hover {
+    background-color: #3d7e5c;
+}
+
+/* Mobile Responsive */
+
